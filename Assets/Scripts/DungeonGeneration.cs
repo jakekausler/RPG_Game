@@ -5,29 +5,21 @@ using UnityEngine.Tilemaps;
  
 public class DungeonGeneration : MonoBehaviour {
 
-	[SerializeField]
-	private int numberOfRooms;
+	public int numberOfRooms;
 
-	[SerializeField]
-	private float connectionChance;
+	public float connectionChance;
 	
-	[SerializeField]
-	private Tilemap tileMap;
+	public Tilemap tileMap;
 
-	[SerializeField]
-	private Tile floorTile;
+	public Tile floorTile;
 
-	[SerializeField]
-	private Tile wallTile;
+	public Tile wallTile;
 
-	[SerializeField]
-	private string floorTileName;
+	public string floorTileName;
 
-	[SerializeField]
-	private GameObject line;
+	// public GameObject line;
 
-	[SerializeField]
-	private GameObject circle;
+	// public GameObject circle;
 
 	private Room startRoom;
 
@@ -257,7 +249,7 @@ public class DungeonGeneration : MonoBehaviour {
 		toExplore.Enqueue(startRoom);
 		while (toExplore.Count > 0) {
 			Room current = toExplore.Dequeue();
-			Instantiate(circle, new Vector3(current.roomCoordinate.x, current.roomCoordinate.y, 0), Quaternion.Euler(90f, 0f, 0f));
+			// Instantiate(circle, new Vector3(current.roomCoordinate.x, current.roomCoordinate.y, 0), Quaternion.Euler(90f, 0f, 0f));
 			for (int i=0; i<current.neighbors.Length; i++) {
 				Room neighbor = current.neighbors[i];
 				if (neighbor != null) {
@@ -271,13 +263,13 @@ public class DungeonGeneration : MonoBehaviour {
 						toExplore.Enqueue(neighbor);
 						traversed.Add(edgeName);
 						if (i == 0) {
-							Instantiate(line, new Vector3(current.roomCoordinate.x, current.roomCoordinate.y + 0.5f, 0), Quaternion.Euler(0f, 0f, 90f));
+							// Instantiate(line, new Vector3(current.roomCoordinate.x, current.roomCoordinate.y + 0.5f, 0), Quaternion.Euler(0f, 0f, 90f));
 						} else if (i == 1) {
-							Instantiate(line, new Vector3(current.roomCoordinate.x, current.roomCoordinate.y - 0.5f, 0), Quaternion.Euler(0f, 0f, 90f));
+							// Instantiate(line, new Vector3(current.roomCoordinate.x, current.roomCoordinate.y - 0.5f, 0), Quaternion.Euler(0f, 0f, 90f));
 						} else if (i == 2) {
-							Instantiate(line, new Vector3(current.roomCoordinate.x - 0.5f, current.roomCoordinate.y, 0), Quaternion.Euler(0f, 0f, 0f));
+							// Instantiate(line, new Vector3(current.roomCoordinate.x - 0.5f, current.roomCoordinate.y, 0), Quaternion.Euler(0f, 0f, 0f));
 						} else {
-							Instantiate(line, new Vector3(current.roomCoordinate.x + 0.5f, current.roomCoordinate.y, 0), Quaternion.Euler(0f, 0f, 0f));
+							// Instantiate(line, new Vector3(current.roomCoordinate.x + 0.5f, current.roomCoordinate.y, 0), Quaternion.Euler(0f, 0f, 0f));
 						}
 					}
 				}

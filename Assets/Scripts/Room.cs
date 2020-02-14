@@ -17,8 +17,8 @@ public class Room {
 	public static int max_width = 20;
 	public static int max_height = 20;
 
-	public static int min_width = 8;
-	public static int min_height = 8;
+	public static int min_width = 15;
+	public static int min_height = 15;
 
 	public Room(Vector2Int roomCoordinate) {
 		this.roomCoordinate = roomCoordinate;
