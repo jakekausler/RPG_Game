@@ -1,0 +1,801 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"Turn",
+				"TurnRight"
+			],
+			[
+				"mov",
+				"movingTo"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"movi",
+				"movingTo"
+			],
+			[
+				"Vector",
+				"Vector3"
+			],
+			[
+				"neigh",
+				"neighbors"
+			],
+			[
+				"nei",
+				"neighbors"
+			],
+			[
+				"Vec",
+				"Vector2Int"
+			],
+			[
+				"end",
+				"endX"
+			],
+			[
+				"star",
+				"startY"
+			],
+			[
+				"st",
+				"startX"
+			],
+			[
+				"slo",
+				"slopeErrorNew"
+			],
+			[
+				"max_",
+				"max_height"
+			],
+			[
+				"MAX",
+				"max_width"
+			],
+			[
+				"room",
+				"roomCoordinate"
+			],
+			[
+				"ro",
+				"roomCoordinate"
+			],
+			[
+				"base",
+				"baseX"
+			],
+			[
+				"rand",
+				"randomPastel"
+			],
+			[
+				"TIL",
+				"TILE_HEIGHT"
+			],
+			[
+				"enti",
+				"entities"
+			],
+			[
+				"ori",
+				"originY"
+			],
+			[
+				"on",
+				"onTileClick"
+			],
+			[
+				"or",
+				"originY"
+			],
+			[
+				"world",
+				"worldInfo"
+			],
+			[
+				"get",
+				"getEntities"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"over",
+				"overflow\tproperty"
+			],
+			[
+				"ini",
+				"initialScoreInfo"
+			],
+			[
+				"Worl",
+				"WorldPanel"
+			],
+			[
+				"init",
+				"initialProductionInfo"
+			],
+			[
+				"Pro",
+				"ProductionPanel"
+			],
+			[
+				"Main",
+				"MainPanelContainer"
+			],
+			[
+				"Pag",
+				"PageButton"
+			],
+			[
+				"Page",
+				"PageSelector"
+			],
+			[
+				"wat",
+				"watch"
+			],
+			[
+				"prec",
+				"precipitationsAboveFreezing"
+			],
+			[
+				"wea",
+				"weathers"
+			],
+			[
+				"enc",
+				"encounterChance"
+			],
+			[
+				"pre",
+				"precipitationsBelowFreezing"
+			],
+			[
+				"print",
+				"PrintWeather"
+			],
+			[
+				"Gen",
+				"GetNextWeather"
+			],
+			[
+				"watc",
+				"watches"
+			],
+			[
+				"drop",
+				"dropdown-content"
+			],
+			[
+				"act",
+				"activeRef"
+			],
+			[
+				"Cha",
+				"ChangeStat"
+			],
+			[
+				"bar",
+				"barChartVisible"
+			],
+			[
+				"Seco",
+				"Secondary-Light"
+			],
+			[
+				"Sec",
+				"Secondary-Dark"
+			],
+			[
+				"Se",
+				"Secondary-Light"
+			],
+			[
+				"Secon",
+				"Secondary-Dark"
+			],
+			[
+				"P",
+				"Primary-Light"
+			],
+			[
+				"Prim",
+				"Primary-Light"
+			],
+			[
+				"Pri",
+				"Primary-Dark"
+			],
+			[
+				"ne",
+				"newPastelColor"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"image",
+				"imageRef"
+			],
+			[
+				"im",
+				"imageurl"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"resu",
+				"results"
+			],
+			[
+				"rep",
+				"response"
+			],
+			[
+				"sear",
+				"search"
+			],
+			[
+				"sea",
+				"searches"
+			],
+			[
+				"seas",
+				"seasonNumber"
+			],
+			[
+				"seri",
+				"seriesId"
+			],
+			[
+				"ser",
+				"seriesId"
+			],
+			[
+				"api",
+				"apikey"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"curr",
+				"currentBook"
+			],
+			[
+				"book",
+				"bookcase"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"case",
+				"case_idx"
+			],
+			[
+				"bc",
+				"bookcase"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"bookH",
+				"bookheight"
+			],
+			[
+				"cas",
+				"case_idx"
+			],
+			[
+				"canv",
+				"canvasClick"
+			],
+			[
+				"no",
+				"nowrap\twhite-space"
+			],
+			[
+				"can",
+				"canvas"
+			],
+			[
+				"this",
+				"thisClass"
+			],
+			[
+				"sh",
+				"shelves"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"canvas",
+				"canvasStyle"
+			],
+			[
+				"for",
+				"forEach"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jake/RPG_Game/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/C/Users/Jake/RPG_Game/Assets/Scripts/Player.cs",
+		"/C/Users/Jake/RPG_Game/Assets/Scripts/MovingObject.cs",
+		"/C/Users/Jake/RPG_Game/Assets/Scripts/Enemy.cs",
+		"/C/Users/Jake/RPG_Game/Assets/Scripts/DungeonGeneration.cs",
+		"/C/Users/Jake/RPG_Game/Assets/Scripts/PlayerMovement.cs",
+		"/C/Users/Jake/RPG_Game/Assets/Scripts/Room.cs",
+		"/C/Users/Jake/RPG/Assets/Scripts/Room.cs",
+		"/C/Users/Jake/RPG/Assets/Scripts/DungeonGeneration.cs",
+		"/C/Users/Jake/Desktop/Scripts/Room.cs",
+		"/C/Users/Jake/Desktop/Scripts/EnterDoor.cs",
+		"/C/Users/Jake/Desktop/Scripts/DungeonGeneration.cs",
+		"/C/Users/Jake/Desktop/Scripts/PlayerMovement.cs",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/SKT/Cave Encounters",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/ToA/Cave Encounters",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/ToA/cave_encounters.py",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/ToA/needed.py",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/ToA/PlayerRules",
+		"/C/Users/Jake/Downloads/monster.monster",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/ToA/Needed",
+		"/C/Users/Jake/Downloads/bestiary-sublist.json",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/SKT/ThroughTriboar",
+		"/C/Users/Jake/Desktop/add_numbers.py",
+		"/D/Models/DiceTower/dt_bottom_back.x3g",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/mainpanel/worldpanel/WorldPanel.js",
+		"/C/Users/Jake/workspace/idle/src/reducers/reducers.js",
+		"/C/Users/Jake/workspace/idle/src/containers/TilePanelContainer.js",
+		"/C/Users/Jake/workspace/idle/src/containers/PageSelectorContainer.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/mainpanel/tilepanel/TilePanel.js",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/SKT/Quests",
+		"/C/Users/Jake/Downloads/secret_santa.py",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/headerpanel/pageselector/PageSelector.js",
+		"/C/Users/Jake/workspace/idle/src/containers/WorldPanelContainer.js",
+		"/C/Users/Jake/workspace/idle/src/actions/actions.js",
+		"/C/Users/Jake/workspace/idle/src/containers/MainPanelContainer.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/mainpanel/MainPanel.js",
+		"/C/Users/Jake/workspace/idle/src/components/App.js",
+		"/C/Users/Jake/workspace/idle/src/containers/TechPanelContainer.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/sidebar/SideBar.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/headerpanel/pageselector/pagebutton/PageButton.css",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/headerpanel/pageselector/pagebutton/PageButton.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/MainContent.js",
+		"/C/Users/Jake/workspace/idle/src/components/footer/Footer.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/headerpanel/HeaderPanel.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/mainpanel/worldpanel/WorldPanel.css",
+		"/C/Users/Jake/workspace/idle/src/components/App.css",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/MainContent.css",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/mainpanel/MainPanel.css",
+		"/C/Users/Jake/workspace/idle/src/containers/ProductionPanelContainer.js",
+		"/C/Users/Jake/workspace/idle/src/containers/ScorePanelContainer.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/bottombar/BottomBar.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/mainpanel/productionpanel/ProductionPanel.js",
+		"/C/Users/Jake/workspace/idle/src/components/maincontent/mainpanel/scorepanel/ScorePanel.js",
+		"/C/Users/Jake/workspace/idle/src/App.js",
+		"/C/Users/Jake/workspace/idle/src/index.js",
+		"/C/Users/Jake/workspace/idle/src/MainPanel.js",
+		"/C/Users/Jake/workspace/idle/src/App.css",
+		"/C/Users/Jake/workspace/idle/src/HeaderPanel.js",
+		"/C/Users/Jake/workspace/idle/src/Footer.js",
+		"/C/Users/Jake/workspace/idle/src/PageButton.css",
+		"/C/Users/Jake/workspace/idle/src/PageButton.js",
+		"/C/Users/Jake/workspace/idle/public/index.html",
+		"/C/Users/Jake/workspace/idle/src/reducers.js",
+		"/C/Users/Jake/workspace/idle/src/PageSelector.js",
+		"/C/Users/Jake/workspace/idle/src/containers/Pages.js",
+		"/C/Users/Jake/workspace/idle/src/BottomBar.js",
+		"/C/Users/Jake/workspace/idle/src/SideBar.js",
+		"/C/Users/Jake/workspace/idle/src/Main.js",
+		"/C/Users/Jake/workspace/idle/src/containters/Pages.js",
+		"/C/Users/Jake/workspace/idle/src/Header.js",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Towns",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Arkansas Stage Directions",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/SKT/SKT Stage Directions.txt",
+		"/C/Users/Jake/Documents/My Games/Sid Meier's Civilization VI/Logs/Lua.log",
+		"/C/Users/Jake/Documents/My Games/Sid Meier's Civilization VI/Logs/Modding.log",
+		"/C/Users/Jake/Documents/My Games/Sid Meier's Civilization VI/Logs/Database.log",
+		"/C/Program Files (x86)/Steam/steamapps/common/Sid Meier's Civilization VI/Base/Binaries/Win64Steam/CivilizationVI.exe.dmp",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/SKT/Maps",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/30 Days of Travel Forest Encounters",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/30 Days of Travel Coastal Encounters",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/30 Days of Travel Grassland Encounters",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/30 Days of Travel Forest Calendar",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/SKT/Travel Times and Encounters",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/cropmap.py",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/GenerateEncountersAndWeather.py",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/30 Days of Travel Grassland Calendar",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/css/styles.css",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/StatButtonBar.js",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/Stats.js",
+		"/C/Users/Jake/Downloads/batch.txt",
+		"/C/Users/Jake/Downloads/multicrop",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/Grid.js",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/Filters.js",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/GridObject.js",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/BookCases.js",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/GridView.js",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/App.js",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/BookView.js",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/js/BookImage.js",
+		"/C/Users/Jake/Desktop/sonarr_api.py",
+		"/C/Users/Jake/Desktop/to_get.txt",
+		"/C/Users/Jake/Desktop/get_links.py",
+		"/C/Users/Jake/Downloads/output",
+		"/C/Users/Jake/Downloads/renamebookimages.py",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/webpack.dev.config.js",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/package.json",
+		"/C/Users/Jake/workspace/LibraryOrganizerReact/src/html/index.html",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Encounter Chances.txt",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Player Traits.txt",
+		"/C/Users/Jake/sleep.bat",
+		"/C/Users/Jake/OneDrive/bookcases",
+		"/C/Users/Jake/wake.bat",
+		"/C/Users/Jake/OneDrive/parse_bookcases.py",
+		"/C/Users/Jake/Downloads/ProPresenter",
+		"/C/Users/Jake/Downloads/McKenzie-Triton.txt",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Build My Life.txt",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Psalm 23 (I Am Not Alone).txt",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Set a Fire.txt",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Who You Say I Am.txt",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Oh Praise the Name (Anastasis).txt",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/Nothing else.txt",
+		"/C/Users/Jake/Downloads/songs/This is Amazing Grace.txt",
+		"/C/Users/Jake/OneDrive/Pictures/DnD/export_layer_names.jsx",
+		"/C/Users/Jake/Downloads/songs/King of My Heart.txt",
+		"/C/Users/Jake/Downloads/songs/Great Are You Lord.txt",
+		"/C/Users/Jake/Downloads/songs/Good Good Father.txt",
+		"/C/Users/Jake/Downloads/songs/Run to the Father.txt",
+		"/C/Users/Jake/Downloads/songs/Defender.txt",
+		"/C/Users/Jake/Downloads/songs/No Longer Slaves.txt"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 580.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"CanMove",
+			"hit",
+			"CanMove",
+			"Vector3",
+			"CanMove",
+			"Raycast",
+			"StopMov",
+			"int",
+			"(int)",
+			"while",
+			"private",
+			"CanMove",
+			"Turn",
+			"Left",
+			"animator",
+			"SetTrigger",
+			"Turn",
+			"TurnLeft",
+			"movingTo += Vector3",
+			"movingTo",
+			"Vector3",
+			"private",
+			"SetTrigger",
+			"CanMove",
+			"canMove",
+			"!=",
+			"numberOfSteps",
+			"Min",
+			"float",
+			"Vector2Int",
+			"= 0",
+			"-1",
+			"room.max_height",
+			"Room.max_height",
+			"room.max_height",
+			"Room.max_height",
+			"room.max_height",
+			"max_height",
+			"room.roomCoordinate.x + \",\" + room.roomCoordinate.y",
+			"roomCoordinates",
+			"Log",
+			"\n\t\t",
+			"([0-9])\\t\\t",
+			"([0-9]): ",
+			":",
+			"Zhent",
+			"Yuan",
+			"Were",
+			"Vege",
+			"Zombie",
+			"Vegepy",
+			"Zombie",
+			"Skel",
+			"Ghoul",
+			"Troll",
+			"Tri-",
+			"Tabaxi",
+			"Insect",
+			"Bats",
+			"Stirges",
+			"Stirg",
+			"Snake, Giant Po",
+			"Snake, Giant Co",
+			"Snake, Giant",
+			"Snake, Con",
+			"Red Wi",
+			"Pteraf",
+			"Night Hag",
+			"Mephit",
+			"Mephitr",
+			"Lizardf",
+			"Liza",
+			"Kama",
+			"Jac",
+			"Grung",
+			"Batir",
+			"giant snapp",
+			"Giant Li",
+			"Flamin",
+			"Explorers",
+			"Zombies",
+			"explorer, ",
+			"explorer",
+			"emerald",
+			"dragon",
+			"Veloc",
+			"Tyr",
+			"Tri",
+			"Tric",
+			"Tri",
+			"Tyran",
+			"quet",
+			"pteranodon",
+			"Hadro",
+			"Dinosaurs, ",
+			"dime",
+			"Anky",
+			"Chw",
+			"Allo",
+			"Cache",
+			"assass",
+			"almir",
+			"Aldani",
+			", generally peaceful",
+			"Albino",
+			"aldani",
+			"alb",
+			"Aarakockra",
+			"Alb",
+			"Alb\\",
+			"Alb",
+			"Aarak",
+			"cave",
+			"Kama",
+			"frog",
+			"Firenew",
+			"elf",
+			"Fey",
+			"albino",
+			"*",
+			"Goblin",
+			"Brood",
+			"Lizardfolk",
+			"Human ",
+			"specter",
+			"spectre",
+			"s ",
+			"Type 2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"$1\\t",
+			"",
+			"youtube-dl \"$1\" -o \"$2.%(ext)s\"",
+			"youtube-dl $1 -o \"$2.%(ext)s\"",
+			"youtube-dl $1 -o $2.%%(ext)s",
+			"youtube-dl $1 -o $2.%(ext)s",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 196.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 561.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
