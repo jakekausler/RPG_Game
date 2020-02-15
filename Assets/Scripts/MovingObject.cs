@@ -5,84 +5,91 @@ using UnityEngine;
 public abstract class MovingObject : MonoBehaviour
 {
 
-	public float moveTime = 0.1f;
+	public float speed = 2.0f;
+    public Animator animator;
 
-	public Animator animator;
+    protected BoxCollider2D bc;
+    public Vector3 movingTo;
 
-	private BoxCollider2D bc;
-	private Rigidbody2D rb2D;
-	private float inverseMoveTime;
-
-    // Start is called before the first frame update
-    protected virtual void Start()
-    {
+    protected virtual void Start() {
+        animator = GetComponent<Animator>();
         bc = GetComponent<BoxCollider2D>();
-        rb2D = GetComponent<Rigidbody2D>();
-        inverseMoveTime = 1f/moveTime;
+        movingTo = transform.position;
     }
 
-    //Returns true if able to move, false if not
-    protected bool Move(int xDir, int yDir, out RaycastHit2D hit) {
-    	Vector2 start = transform.position;
-    	Vector2 end = start + new Vector2(xDir, yDir);
-
-    	bc.enabled = false;
-    	hit = Physics2D.Linecast(start, end);
-    	bc.enabled = true;
-
-    	if (hit.transform == null) {
-    		StartCoroutine(SmoothMovement(end));
-    		return true;
-    	}
-    	Debug.Log("Hit");
-
-    	return false;
-    }
-
-    //Moves unit from one space to the next.
-    protected IEnumerator SmoothMovement(Vector3 end) {
+    protected void StartMoving(Vector3 towards) {
+    	movingTo += towards;
     	animator.SetBool("Walk", true);
-    	float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
-    	while (sqrRemainingDistance > float.Epsilon) {
-    		Vector3 newPosition = Vector3.MoveTowards(rb2D.position, end, inverseMoveTime * Time.deltaTime);
-    		rb2D.MovePosition(newPosition);
-    		sqrRemainingDistance = (transform.position - end).sqrMagnitude;
+    }
 
-    		yield return null;
-    	}
+    protected void Turn(string direction) {
+    	animator.SetTrigger("Turn" + direction);
+    }
+
+    protected void MoveLeft() {
+    	Turn("Left");
+    	RaycastHit2D hit;
+        if (CanMove(Vector3.left, out hit)) {
+            StartMoving(Vector3.left);
+        } else {
+
+        }
+    }
+
+    protected void MoveRight() {
+    	Turn("Right");
+    	RaycastHit2D hit;
+        if (CanMove(Vector3.right, out hit)) {
+            StartMoving(Vector3.right);
+        } else {
+
+        }
+    }
+
+    protected void MoveDown() {
+    	Turn("Down");
+    	RaycastHit2D hit;
+        if (CanMove(Vector3.down, out hit)) {
+            StartMoving(Vector3.down);
+        } else {
+
+        }
+    }
+
+    protected void MoveUp() {
+		Turn("Up");
+		RaycastHit2D hit;
+        if (CanMove(Vector3.up, out hit)) {
+            StartMoving(Vector3.up);
+        } else {
+
+        }
+    }
+
+    protected virtual void StopMoving() {
     	animator.SetBool("Walk", false);
     }
 
-    //Attempt to move toward something
-    protected virtual void AttemptMove<T>(int xDir, int yDir)
-    where T : Component
+    protected void Move() {
+		transform.position = Vector3.MoveTowards(transform.position, movingTo, speed * Time.deltaTime);
+        animator.SetBool("Walk", true);
+    }
+
+    protected virtual void Update()
     {
-    	RaycastHit2D hit;
+        Move();
 
-    	if (xDir > 0) {
-    		animator.SetTrigger("TurnRight");
-    	} else if (xDir < 0) {
-    		animator.SetTrigger("TurnLeft");
-    	} else if (yDir > 0) {
-    		animator.SetTrigger("TurnUp");
-    	} else if (yDir < 0) {
-    		animator.SetTrigger("TurnDown");
-    	}
-    	
-    	bool canMove = Move(xDir, yDir, out hit);
+        if (movingTo == transform.position) {
+            StopMoving();
+        }
+    }
 
-    	if (hit.transform == null) {
-    		return;
-    	}
-	}
-    // 	T hitComponent = hit.transform.GetComponent<T>();
+    protected bool CanMove(Vector3 direction, out RaycastHit2D hit) {
+        bc.enabled = false;
+        hit = Physics2D.Linecast(transform.position, transform.position + direction);
+        bc.enabled = true;
 
-    // 	if (!canMove && hitComponent != null) {
-    // 		OnCantMove(hitComponent);
-    // 	}
-    // }
-
-    // protected abstract void OnCantMove<T> (T component)
-    // where T : Component;
+        return hit.transform == null;
+    }
 
 }
